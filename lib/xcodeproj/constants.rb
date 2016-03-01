@@ -108,6 +108,7 @@ module Xcodeproj
     PRODUCT_TYPE_UTI = {
       :application       => 'com.apple.product-type.application',
       :framework         => 'com.apple.product-type.framework',
+      :static_framework  => 'com.apple.product-type.framework.static',
       :dynamic_library   => 'com.apple.product-type.library.dynamic',
       :static_library    => 'com.apple.product-type.library.static',
       :bundle            => 'com.apple.product-type.bundle',
@@ -127,6 +128,7 @@ module Xcodeproj
     PRODUCT_UTI_EXTENSIONS = {
       :application      => 'app',
       :framework        => 'framework',
+      :static_framework => 'framework',
       :dynamic_library  => 'dylib',
       :static_library   => 'a',
       :bundle           => 'bundle',
